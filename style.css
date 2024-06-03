@@ -1,0 +1,35 @@
+body {
+    padding-bottom: 60px; /* Space for the navbar */
+}
+
+
+.navbar{
+    box-shadow: 0 0 .3rem rgba(var(--bs-body-color-rgb), .15) !important;
+}
+
+.navbar-item {
+    flex-grow: 1;
+    text-align: center;
+    font-size:.9rem
+}
+
+.main-button i {
+    color: #007bff;
+    transform: scale(3) translateY(-8px);
+    background: white;
+    border-radius: 50%;
+}
+
+.section {
+    padding: 20px;
+}
+
+.input-group .btn {
+    flex: 0 0 auto;
+}
+
+
+
+.iconpicker-popover{
+    opacity: 1!important;
+}

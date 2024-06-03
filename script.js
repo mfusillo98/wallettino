@@ -1,4 +1,4 @@
-if ('serviceWorker' in navigator) {
+/*if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('./service-worker.js')
             .then((registration) => {
@@ -8,6 +8,7 @@ if ('serviceWorker' in navigator) {
             });
     });
 }
+*/
 
 document.addEventListener('DOMContentLoaded', () => {
     const homeSection = document.getElementById('home-section');

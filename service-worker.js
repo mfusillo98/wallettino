@@ -1,18 +1,17 @@
 const CACHE_NAME = 'budget-manager-cache-v1';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/styles.css',
-    '/script.js',
-    '/manifest.json',
-    '/favicon/favicon.ico',
-    '/favicon/favicon-16x16.png',
-    '/favicon/favicon-32x32.png',
-    '/favicon/android-chrome-192x192.png',
-    '/favicon/android-chrome-512x512.png',
-    '/favicon/apple-touch-icon.png',
-    '/favicon/mstile-150x150.png',
-    '/favicon/safari-pinned-tab.svg',
+    './index.html',
+    './styles.css',
+    './script.js',
+    './manifest.json',
+    './favicon/favicon.ico',
+    './favicon/favicon-16x16.png',
+    './favicon/favicon-32x32.png',
+    './favicon/android-chrome-192x192.png',
+    './favicon/android-chrome-512x512.png',
+    './favicon/apple-touch-icon.png',
+    './favicon/mstile-150x150.png',
+    './favicon/safari-pinned-tab.svg',
 ];
 
 self.addEventListener('install', (event) => {
